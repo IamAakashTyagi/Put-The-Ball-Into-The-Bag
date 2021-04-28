@@ -1,0 +1,33 @@
+.container{
+    background-color: azure;
+    width: 90vw;
+    min-height: 80px;
+    height: auto;
+    border-bottom:  3px double lightgrey;
+    border-left:  3px double lightgrey;
+    border-right:  3px double lightgrey;;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap-reverse; 
+}
+
+.btn-con{
+    width: 200px;
+    margin: 20px auto;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ball{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    margin: 1px;
+    border-radius: 50%;
+    display: inline-block;
+}
